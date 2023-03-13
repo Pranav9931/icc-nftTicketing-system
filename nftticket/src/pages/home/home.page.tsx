@@ -18,23 +18,33 @@ const HomePage = () => {
     const items = [
         {
             image: <img src={CarouselImg5} alt="item 4" />,
-            caption: <div className="carousel-caption">Caption for item 0</div>
+            caption: <div className="carousel-caption">World T20 2K23
+                <div style={{ fontSize: '40px', margin: '10px 0', color: '#0090ff' }}>Starting 10th May</div>
+                <div style={{ fontWeight: '400', fontSize: '15px' }}>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div></div>
         },
         {
             image: <img src={CarouselImg1} alt="item 1" />,
-            caption: <div className="carousel-caption">Caption for item 1</div>
+            caption: <div className="carousel-caption">Australia (Women) won the WWT20 Title
+                <div style={{ fontSize: '40px', margin: '10px 0', color: '#0090ff' }}>IND(W) 147 / AUS(W) 120</div>
+                <div style={{ fontWeight: '400', fontSize: '15px' }}>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div></div>
         },
         {
             image: <img src={CarouselImg2} alt="item 2" />,
-            caption: <div className="carousel-caption">Caption for item 2</div>
+            caption: <div className="carousel-caption">England won the Series
+                <div style={{ fontSize: '40px', margin: '10px 0', color: '#0090ff' }}>ENG 2 / AUS 1</div>
+                <div style={{ fontWeight: '400', fontSize: '15px' }}>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div></div>
         },
         {
             image: <img src={CarouselImg3} alt="item 3" />,
-            caption: <div className="carousel-caption">Caption for item 3</div>
+            caption: <div className="carousel-caption">India (Women) won Nidahas Trophy 2K23
+                <div style={{ fontSize: '40px', margin: '10px 0', color: '#0090ff' }}>Series (3-0)</div>
+                <div style={{ fontWeight: '400', fontSize: '15px' }}>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div></div>
         },
         {
             image: <img src={CarouselImg4} alt="item 4" />,
-            caption: <div className="carousel-caption">Caption for item 4</div>
+            caption: <div className="carousel-caption">India won Nidahas Trophy 2K23
+                <div style={{ fontSize: '40px', margin: '10px 0', color: '#0090ff' }}>IND 147 / BAN 120</div>
+                <div style={{ fontWeight: '400', fontSize: '15px' }}>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</div></div>
         },
     ];
 

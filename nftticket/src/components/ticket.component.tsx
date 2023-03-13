@@ -69,9 +69,8 @@ const TicketComponent = () => {
                                 <li>Opportunity to see the player(s).</li>
                             </div>
                         </div>
-                        <div>
-                            <button className='btn-connect' style={{ margin: '15px 0', width: '100%' }} onClick={() => setTicketNumber(0)}>Select Ticket</button>
-                        </div>
+                        <button className='btn-connect' style={{ margin: '15px 0 0 0', width: '100%' }} onClick={() => setTicketNumber(0)}>Select Ticket</button>
+
                     </div>
                     <div className={`${ticketNumber === 1 ? "ticket border-round" : "ticket"}`}>
                         <div>
@@ -95,9 +94,8 @@ const TicketComponent = () => {
                                 <li>Early access to venue before regular ticket holders</li>
                             </div>
                         </div>
-                        <div>
-                            <button className='btn-connect' style={{ margin: '15px 0', width: '100%' }} onClick={() => setTicketNumber(1)}>Select Ticket</button>
-                        </div>
+
+                        <button className='btn-connect' style={{ margin: '15px 0 0 0', width: '100%' }} onClick={() => setTicketNumber(1)}>Select Ticket</button>
                     </div>
 
                 </div>

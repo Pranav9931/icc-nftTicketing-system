@@ -17,6 +17,12 @@ import TicketCard4 from "./ticket-card-4.png"
 import TicketCard5 from "./ticket-card-5.jpeg"
 import TicketCard6 from "./ticket-card-6.jpeg"
 
+// Wallet Icons Imports
+
+import MetamaskWallet from "./metamask-wallet-png.png";
+import CoinbaseWallet from "./coinbase-wallet-png.png";
+import WazirXWallet from "./wazirx-wallet-png.png";
+
 export {
     FileCoinLogo,
     userAvatar,
@@ -32,6 +38,9 @@ export {
     TicketCard3,
     TicketCard4,
     TicketCard5,
-    TicketCard6
+    TicketCard6,
+    MetamaskWallet,
+    CoinbaseWallet,
+    WazirXWallet
 
 }

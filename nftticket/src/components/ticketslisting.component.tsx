@@ -78,7 +78,7 @@ function TicketsListing({ tickets }: TicketsListingProps) {
   const navigate = useNavigate();
 
   function handleClick(ticket: Ticket) {
-    navigate(`/tickets/${ticket.id}`, { state: ticket });
+    navigate(`/tickets/${ticket.id}#`, { state: ticket });
   }
 
   function formatPrice(price: number) {

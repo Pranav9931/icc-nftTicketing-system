@@ -9,12 +9,9 @@
 .ticket-container{
     display: flex;
     width: auto;
-    align-items: center;
-    padding: 20px;
-    /* background-color: red; */
-    padding: var(--global-padding);
-    flex: 1;
-    margin: 0 auto;
+    justify-content: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
 }
 
 .page-title{
@@ -36,8 +33,10 @@
     width: 300px;
     border: 2px solid #1a1a1a;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .ticket-type-title{

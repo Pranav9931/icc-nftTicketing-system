@@ -26,7 +26,7 @@ const CarouselSlider: React.FC<CarouselProps> = ({ items }) => {
             if (sliderRef.current) {
                 sliderRef.current.slickNext(); // go to the next slide
             }
-        }, 5000); // set the interval to 2 seconds
+        }, 3000); // set the interval to 3 seconds
 
         return () => clearInterval(interval); // clear the interval when the component unmounts
     }, []);

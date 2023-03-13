@@ -7,7 +7,11 @@ import ticketsData from '../../tickets';
 
 import "./selectnft.page.css"
 const SelectNFT = () => {
+
     const location = useLocation();
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location]);
     const navigate = useNavigate();
     function formatPrice(price: number) {
         const formattedPrice = price.toFixed(2);
@@ -47,7 +51,7 @@ const SelectNFT = () => {
     const stateData = location.state;
     return (
         <div className="nfttickets-container">
-            <div className="nfttickets-container-card">
+            <div className="nfttickets-container-card" id="selectNFT">
                 <div className="nfttickets-container-card-details">
                     <img src={stateData.imageSrc} />
                     <div>
